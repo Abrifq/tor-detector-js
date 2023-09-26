@@ -1,7 +1,7 @@
 {
-  "name": "tor-detector",
+  "name": "tor-detector-2020",
   "version": "1.0.0",
-  "description": "Detects if given IP is a TOR exit node.",
+  "description": "Detects if given IP is a TOR exit node with the old ip list strategy and new DNS query strategy.",
   "main": "index.js",
   "scripts": {
     "test": "node --test"
@@ -18,7 +18,10 @@
     "dark",
     "deep",
     "web",
-    "net"
+    "net",
+    "dns",
+    "dnsel",
+    "list"
   ],
   "author": "Abrifq",
   "license": "MIT",
@@ -32,7 +35,11 @@
   "devDependencies": {
     "@types/node": "^20.7.0"
   },
-  "jshint": {
-    "esversion": 11
-  }
+  "files": [
+    "constants.js",
+    "local-checker.js",
+    "constants.js",
+    "index.js",
+    "dns-checker.js"
+  ]
 }

@@ -2,6 +2,9 @@
 
 Check if a request you received is routed via tor.
 
+- `FileBasedChecker` uses the traditional ip file strategy
+- `DNSBasedChecker` uses the new (2020) DNS query strategy
+
 ## Usage
 
 Depending on your usage, use either `tor-detector/dns-checker.js` to check via DNS queries or `tor-detector/local-checker.js` to check with TOR's own auto-published list.
