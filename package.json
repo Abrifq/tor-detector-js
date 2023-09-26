@@ -1,0 +1,38 @@
+{
+  "name": "tor-detector",
+  "version": "1.0.0",
+  "description": "Detects if given IP is a TOR exit node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abrifq/tor-detector-js.git"
+  },
+  "keywords": [
+    "tor",
+    "exit",
+    "ip",
+    "censor",
+    "dark",
+    "deep",
+    "web",
+    "net"
+  ],
+  "author": "Abrifq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abrifq/tor-detector-js/issues"
+  },
+  "homepage": "https://github.com/Abrifq/tor-detector-js#readme",
+  "engines": {
+    "node": "^20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.0"
+  },
+  "jshint": {
+    "esversion": 11
+  }
+}
