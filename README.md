@@ -1,9 +1,12 @@
-# tor-detector
+# tor-detector-with-dns
+
+Why this name? I ran out of good names. Most of them are taken.
 
 Check if a request you received is routed via tor.
 
 - `FileBasedChecker` uses the traditional ip file strategy
-- `DNSBasedChecker` uses the new (2020) DNS query strategy
+- `DNSBasedChecker` uses [the new (2020) DNS query strategy](https://lists.torproject.org/pipermail/tor-project/2020-March/002759.html#DNS-Exit-List
+) (less waste!)
 
 ## Usage
 

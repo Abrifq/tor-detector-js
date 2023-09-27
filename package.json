@@ -1,5 +1,5 @@
 {
-  "name": "tor-detector-2020",
+  "name": "tor-detector-with-dns",
   "version": "1.0.0",
   "description": "Detects if given IP is a TOR exit node with the old ip list strategy and new DNS query strategy.",
   "main": "index.js",
